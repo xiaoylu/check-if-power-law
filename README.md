@@ -11,17 +11,17 @@ This is an example showing how we can validate the hypothesis that a distributio
 
 ## Figures 
 Distribution of the real data in `news_events_powerlaw.csv` (as an example):
+
 ![alt text](https://github.com/xiaoylu/check-if-power-law/blob/master/figures/scatter.png "Distribtuion of the real data.")
 
-The slope in double logarithm scale is the exponent of the power-law. KS distance measure the "distance" of the real data and obtained model. $K_min=2$:
+The slope in double logarithm scale is the exponent of the power-law. KS distance measure the "distance" of the real data and obtained model. The minimum degree where the power-law starts is 2 here.
+
 ![alt text](https://github.com/xiaoylu/check-if-power-law/blob/master/figures/fit.png "Fit the data")
 
 Using the obtained model, we generate synthetic sequences, which are used to evaluate the goodness of fit.
+
 ![alt text](https://github.com/xiaoylu/check-if-power-law/blob/master/figures/synthetic.png "synthetic sequences")
 
 The p-value is exactly the portion of synthetic sequences whose KS distance is larger than the real data's. When p-value is large enough, >10% in most cases, we can say the Power-law is a plausible fit to the real data.
+
 ![alt text](https://github.com/xiaoylu/check-if-power-law/blob/master/figures/pvalue.png "pvalue")
-
-
-
-
