@@ -4,10 +4,10 @@ This is an example showing how we can validate the hypothesis that a distributio
 
 ## Organization
 1. The step-by-step python code is in `powerlaw.ipynb`. 
-2. The specific steps are explained in the slides `Plotting_Power_laws_and_the_Degree_Exponent.pdf`.
-3. The output figures are in `powerlaw_report.pdf`. We also consider the log-logistic distribution.
+2. The MLE estimator and goodness of fit are explained in the slides `Plotting_Power_laws_and_the_Degree_Exponent.pdf`.
+3. The output figures are in `powerlaw_report.pdf`. We also consider fitting the data by the log-logistic distribution.
 4. The parallelized synthetic data generation code can be found at `powerlaw_synthetic_parallel.py`. 
-5. The data for this example is located at `news_events_powerlaw.csv`.
+5. The dataset for this example is located at `news_events_powerlaw.csv`. It is the number of news event reported by the online news site in the last years. Data source: [GDelt](https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone).
 
 ## Figures 
 Distribution of the real data in `news_events_powerlaw.csv` (as an example):
