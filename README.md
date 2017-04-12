@@ -1,14 +1,16 @@
 # check-if-power-law
 
-This is an example showing how we can validate the hypothesis that a distribution follows the power-law. For more details from the theoretical aspects, please refer to the paper "Power-law distributions in empirical data." by Clauset et al. or our slides attached in this github repo.
+This is an example showing how we can validate the hypothesis that a distribution follows the power-law. For more details from the theoretical aspects, please refer to the paper "Power-law distributions in empirical data." by Clauset et al. or our [slides](https://github.com/xiaoylu/check-if-power-law/blob/master/Plotting_Power_laws_and_the_Degree_Exponent.pdf) for a quick glance.
 
 ## Organization
-1. The python code is in `powerlaw.ipynb`. 
+1. The step-by-step python code is in `powerlaw.ipynb`. 
 2. The specific steps are explained in the slides `Plotting_Power_laws_and_the_Degree_Exponent.pdf`.
 3. The output figures are in `powerlaw_report.pdf`. We also consider the log-logistic distribution.
 4. The parallelized synthetic data generation code can be found at `powerlaw_synthetic_parallel.py`. 
+5. The data for this example is located at `news_events_powerlaw.csv`.
 
 ## Figures 
+Distribution of the real data in `news_events_powerlaw.csv` (as an example):
 ![alt text](https://github.com/xiaoylu/check-if-power-law/blob/master/figures/scatter.png "Distribtuion of the real data.")
 
 The slope in double logarithm scale is the exponent of the power-law. KS distance measure the "distance" of the real data and obtained model. $K_min=2$:
